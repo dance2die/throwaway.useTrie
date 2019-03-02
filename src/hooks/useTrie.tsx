@@ -72,5 +72,5 @@ function useTrie(initialWords: string[], isCaseSensitive = true): Trie {
   return trie;
 }
 
-export { Trie as ITrie };
+export { Trie };
 export default useTrie;
